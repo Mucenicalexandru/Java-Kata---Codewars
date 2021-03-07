@@ -1,9 +1,6 @@
 package com.company.pa;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class WhereIsMyParent {
 
