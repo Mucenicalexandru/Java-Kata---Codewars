@@ -6,22 +6,16 @@ public class MissingInteger {
 
 
     public static int solution(int[] A) {
-        int result = 0;
-        int max = A.length + 1;
+        Arrays.sort(A);
+        int min = 1;
 
-        List<Integer> incompleteList = new ArrayList<>();
-        for(int i = 0; i<A.length; i++){
-            incompleteList.add(A[i]);
-        }
-
-
-        for(int i = 1; i < max + 1; i++){
-            if(!incompleteList.contains(i)){
-                result = i;
+        for(int i : A){
+            if(i == min){
+                min++;
             }
         }
 
-        return result;
+        return min;
     }
 
 
