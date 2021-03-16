@@ -1,7 +1,6 @@
 package com.company.pa;
 
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.Arrays;
 
 public class StringArrayDuplicates {
 
@@ -9,7 +8,7 @@ public class StringArrayDuplicates {
         String [] resultList = new String[arr.length];
 
         for(int j=0; j < arr.length; j++){
-            Character firstChar = arr[j].charAt(0);
+            char firstChar = arr[j].charAt(0);
 
 
             String result = arr[j].substring(0, 1);
