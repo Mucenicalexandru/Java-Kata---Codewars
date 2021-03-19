@@ -12,8 +12,6 @@ public class Quicksort {
 
     }
 
-
-
     public static void quickSort(int[] toSort, int startIndex, int endIndex){
         if(endIndex - startIndex < 2){
             return;
