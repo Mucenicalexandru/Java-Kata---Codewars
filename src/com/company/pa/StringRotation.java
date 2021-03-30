@@ -18,6 +18,14 @@ public class StringRotation {
 
         }
         return -1;
+
+    }
+
+    public static void main(String[] args) {
+        String first = "coffee";
+        String second = "eecoff";
+
+        System.out.println((second+second).indexOf(first));
     }
 
 }
